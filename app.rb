@@ -9,4 +9,9 @@ class App < Sinatra::Base
 		status 200
 	end
 
+	get '/goodbye' do
+		erb :hello
+		status 200
+	end
+
 end
