@@ -1,8 +1,8 @@
 class App < Sinatra::Base
 
 	get '/hello' do
-		erb :hello
 		status 200
+		erb :hello		
 	end
 
 	get '/goodbye' do
