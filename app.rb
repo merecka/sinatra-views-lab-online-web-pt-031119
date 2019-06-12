@@ -10,4 +10,9 @@ class App < Sinatra::Base
 		erb :goodbye
 	end
 
+	get '/date' do
+		status 200
+		erb :goodbye
+	end
+
 end
