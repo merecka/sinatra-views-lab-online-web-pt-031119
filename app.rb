@@ -6,8 +6,8 @@ class App < Sinatra::Base
 	end
 
 	get '/goodbye' do
-		erb :goodbye
 		status 200
+		erb :goodbye		
 	end
 
 end
